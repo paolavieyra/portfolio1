@@ -1,0 +1,53 @@
+ * {
+    margin: 26;
+    padding: 26;
+    box-sizing: border-box;
+  
+    }
+    header {
+        background-image: url("https://i.postimg.cc/28Jwv4S5/portfolio-header-1.png");
+        background-size: cover;
+        background-position: center center;
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 55vh;
+        max-height: 55vh;
+        color: brown;    
+            }
+    h2, h3 {
+                font-size: 2em;                
+                font: bolder;
+                font-style: oblique;
+               text-align: center;
+                position: relative;  
+                text-decoration: underline;
+                
+            }
+    
+    hr {
+        border: 10px solid green;
+  border-radius: 5px;
+       }
+   /* .softSkills {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+        grid-gap: 10px;
+       }*/
+        @media (min-width: 768px)  {
+            .softSkills {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr); 
+                grid-gap: 10px;
+               }
+        }
+        @media (max-width: 767px) {
+            .softSkills {
+                display: grid;
+                justify-content: center;
+                               
+
+            }
+        }
+    /*.imgProyectos {
+        
+    }*/
